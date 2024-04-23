@@ -1,0 +1,109 @@
+/* CSS Styles for Weather Website */
+/* Reset default margin and padding */
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font */
+body {
+    background-color: #f8f8f8;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+/* Search container styles */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Added margin to move the button lower */
+}
+
+/* Search bar styles */
+input[type="text"] {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    width: calc(100% - 60px);
+    max-width: 400px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]::placeholder {
+    color: #ccc;
+}
+
+/* Button styles */
+button {
+    padding: 15px 25px; /* Adjust button padding */
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px; /* Added margin to move the button lower */
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Current weather section styles */
+.current-weather {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.current-weather h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Forecast section styles */
+.forecast {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 800px;
+}
+
+.forecast h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    background: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
