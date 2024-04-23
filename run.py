@@ -7,7 +7,7 @@ users = {
     'user1': 'password1',
     'user2': 'password2'
 }
-
+#Ja a pan Spanek nejsme velky kamaradi
 @app.route('/')
 def login():
     return render_template('login.html')
